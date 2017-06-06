@@ -2,7 +2,7 @@ Objective: remove all mails in @gmail.com account
 
 &nbsp;
 
-I used this program to delete my 6,000+ emails in my gmail account, freeing up several GBs of space in my Google Drive.
+I used this program to **delete my 6,000+ old emails in my gmail account**, **freeing up several GBs of space in my Google Drive**.
 
 &nbsp;
 
@@ -12,7 +12,7 @@ Method:
 
 &nbsp;
 
-For this app to be able to access gmail,
+For this program to be able to access gmail,
 
  * (1) In EmailService.java, specify your username/password
  * (2) In EmailService.java, specify in exclude_signature_sender, the email addresses and names, whose emails you do not want to be deleted
@@ -21,7 +21,7 @@ For this app to be able to access gmail,
 
 &nbsp;
 
-After running this app, disallow the access for less secure apps, as in step (3), for security.
+After running this program, disallow the access for less secure apps, as in step (3), for security.
 
 &nbsp;
 
