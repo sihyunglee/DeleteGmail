@@ -7,15 +7,14 @@ I used this program to delete my 6,000+ emails in my gmail account, freeing up s
 &nbsp;
 
 Method: 
-* (1) move all mails in the INBOX to TRASH, 
- * (2) flag all mails in the TRASH as deleted, then
- * (3) expunge the TRASH folder 
+* (1) move all mails to the TRASH folder, 
+ * (2) flag all mails in the TRASH as deleted
 
 &nbsp;
 
 For this app to be able to access gmail,
 
- * (1) In EmailService.java, specify your username/password in EmailService.java
+ * (1) In EmailService.java, specify your username/password
  * (2) In EmailService.java, specify in exclude_signature_sender, the email addresses and names, whose emails you do not want to be deleted
  * (3) allow less secure apps at https://myaccount.google.com/lesssecureapps
  * (4) replace /lib/mail.jar with the latest version from the javamail library and add it to the build path
