@@ -2,7 +2,7 @@ Objective: remove all mails in @gmail.com account
 
 &nbsp;
 
-I used this program to **delete my 6,000+ old emails in my gmail account**, **freeing up several GBs of space in my Google Drive**.
+I used this program to **delete my 6,000+ old gmails**, **freeing up several GBs of space in my Google Drive**.
 
 &nbsp;
 
