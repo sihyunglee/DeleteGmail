@@ -6,22 +6,23 @@ I used this program to **delete my 6,000+ old emails in my gmail account**, **fr
 
 &nbsp;
 
-Method: 
+Method Summary: 
 * (1) move all mails to the TRASH folder, 
  * (2) flag all mails in the TRASH as deleted
 
 &nbsp;
 
-For this program to be able to access gmail,
+To run this program, 
 
- * (1) In EmailService.java, specify your username/password
- * (2) In EmailService.java, specify in exclude_signature_sender, the email addresses and names, whose emails you do not want to be deleted
- * (3) allow less secure apps at https://myaccount.google.com/lesssecureapps
- * (4) replace /lib/mail.jar with the latest version from the javamail library and add it to the build path
+ * (1) Import this project into **Eclipse IDE**
+ * (2) In EmailService.java, specify your **username/password**
+ * (3) In EmailService.java, specify in **exclude_signature_sender**, the email addresses and names, whose emails you do not want to be deleted
+ * (4) allow gmail-access from less secure apps at https://myaccount.google.com/lesssecureapps
+ * (5) **(optional)** replace /lib/mail.jar with the latest version from the javamail library and add it to the build path
 
 &nbsp;
 
-After running this program, disallow the access for less secure apps, as in step (3), for security.
+After running this program, disallow the access for less secure apps, as in step (4), for security.
 
 &nbsp;
 
